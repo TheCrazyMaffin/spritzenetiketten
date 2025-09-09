@@ -1,0 +1,29 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "medication-group.schema.json",
+    "title": "Wirkstoffgruppe",
+    "type": "object",
+    "properties": {
+        "name": {
+            "title": "Name",
+            "type": "string"
+        },
+        "style": {
+            "title": "Stil",
+            "description": "Standardaussehen für Medikamente dieser Gruppe. Einzelne Wirkstoffe weichen teilweise ab.",
+            "$ref": "style.schema.json"
+        },
+        "medications": {
+            "type": "array",
+            "items": {
+                "$ref": "medication.schema.json"
+            }
+        }
+    },
+    "additionalProperties": false,
+    "required": [
+        "name",
+        "style",
+        "medications"
+    ]
+}

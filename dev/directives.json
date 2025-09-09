@@ -1,0 +1,66 @@
+{
+    "small": {
+        "aspect": {
+            "max": 4,
+            "min": 1.6
+        },
+        "width": {
+            "unit": "mm",
+            "max": 40,
+            "min": 25
+        },
+        "height": {
+            "unit": "mm",
+            "max": 15,
+            "min": 10
+        }
+    },
+    "large": {
+        "aspect": {
+            "max": 1.5,
+            "min": 2.6
+        },
+        "width": {
+            "unit": "mm",
+            "max": 80,
+            "min": 60
+        },
+        "height": {
+            "unit": "mm",
+            "max": 40,
+            "min": 30
+        }
+    },
+    "plus": {
+        "aspect": {
+            "max": 1.5,
+            "min": 2.6
+        },
+        "width": {
+            "unit": "mm",
+            "max": 80,
+            "min": 60
+        },
+        "height": {
+            "unit": "mm",
+            "max": 40,
+            "min": 30
+        }
+    },
+    "line": {
+        "aspect": {
+            "max": 8,
+            "min": 3.3
+        },
+        "width": {
+            "unit": "mm",
+            "max": 80,
+            "min": 50
+        },
+        "height": {
+            "unit": "mm",
+            "max": 15,
+            "min": 10
+        }
+    }
+}

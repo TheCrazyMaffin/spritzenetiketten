@@ -1,0 +1,153 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "medication.schema.json",
+    "type": "object",
+    "properties": {
+        "name": {
+            "ref": "#/$defs/renderable-string"
+        },
+        "style": {
+            "$ref": "style.schema.json"
+        },
+        "variations": {
+            "type": "array",
+            "items": {
+                "oneOf": [
+                    {
+                        "$ref": "#/$defs/variation-small"
+                    },
+                    {
+                        "$ref": "#/$defs/variation-plus"
+                    },
+                    {
+                        "$ref": "#/$defs/variation-line"
+                    },
+                    {
+                        "$ref": "#/$defs/variation-large"
+                    }
+                ]
+            }
+        }
+    },
+    "additionalProperties": false,
+    "required": [
+        "name", "variations"
+    ],
+    "$defs": {
+        "renderable-string": {
+            "title": "Text mit Platzhaltern",
+            "type": "string"
+        },
+        "variation-small": {
+            "type": "object",
+            "properties": {
+                "labelType": {
+                    "const": "small"
+                },
+                "_note": {
+                    "description": "Nicht zur Darstellung. Hinweis für die Nutzung.",
+                    "type": "string"
+                },
+                "dsec": {
+                    "$ref": "dsec.schema.json"
+                },
+                "name": {
+                    "ref": "#/$defs/renderable-string"
+                },
+                "amount": {
+                    "ref": "#/$defs/renderable-string"
+                }
+            },
+            "additionalProperties": false,
+            "required": [
+                "labelType"
+            ]
+        },
+        "variation-line": {
+            "type": "object",
+            "properties": {
+                "labelType": {
+                    "const": "line"
+                },
+                "_note": {
+                    "description": "Nicht zur Darstellung. Hinweis für die Nutzung.",
+                    "type": "string"
+                },
+                "dsec": {
+                    "$ref": "dsec.schema.json"
+                },
+                "name": {
+                    "ref": "#/$defs/renderable-string"
+                }
+            },
+            "additionalProperties": false,
+            "required": [
+                "labelType"
+            ]
+        },
+        "variation-plus": {
+            "type": "object",
+            "properties": {
+                "labelType": {
+                    "const": "plus"
+                },
+                "_note": {
+                    "description": "Nicht zur Darstellung. Hinweis für die Nutzung.",
+                    "type": "string"
+                },
+                "dsec": {
+                    "$ref": "dsec.schema.json"
+                },
+                "name": {
+                    "ref": "#/$defs/renderable-string"
+                },
+                "amount": {
+                    "ref": "#/$defs/renderable-string"
+                }
+            },
+            "additionalProperties": false,
+            "required": [
+                "labelType",
+                "amount"
+            ]
+        },
+        "variation-large": {
+            "$id": "variation-large",
+            "type": "object",
+            "properties": {
+                "labelType": {
+                    "const": "large"
+                },
+                "_note": {
+                    "description": "Nicht zur Darstellung. Hinweis für die Nutzung.",
+                    "type": "string"
+                },
+                "dsec": {
+                    "$ref": "dsec.schema.json"
+                },
+                "name": {
+                    "ref": "#/$defs/renderable-string"
+                },
+                "dose": {
+                    "ref": "#/$defs/renderable-string"
+                },
+                "total": {
+                    "ref": "#/$defs/renderable-string"
+                },
+                "solvent": {
+                    "ref": "#/$defs/renderable-string"
+                },
+                "volume": {
+                    "ref": "#/$defs/renderable-string"
+                },
+                "note": {
+                    "ref": "#/$defs/renderable-string"
+                }
+            },
+            "additionalProperties": false,
+            "required": [
+                "labelType"
+            ]
+        }
+    }
+}

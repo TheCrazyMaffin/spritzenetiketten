@@ -1,0 +1,20 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "spritzenetiketten.schema.json",
+    "type": "object",
+    "properties": {
+        "groups": {
+            "type": "array",
+            "items": {
+                "$ref": "medication-group.schema.json"
+            }
+        },
+        "namedColors": {
+            "type": "object",
+            "additionalProperties": {
+                "$ref": "color.schema.json"
+            }
+        }
+    },
+    "required": ["groups", "namedColors"]
+}

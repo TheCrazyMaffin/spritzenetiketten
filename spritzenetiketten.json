@@ -1,0 +1,4041 @@
+{
+    "$schema": "schema/spritzenetiketten.schema.json",
+    "namedColors": {
+        "red": "#f54029",
+        "white": "#fff",
+        "yellow": "#f3e300"
+    },
+    "groups": [
+        {
+            "name": "Hypnotika",
+            "style": {
+                "type": "plain",
+                "background": "#ffff00",
+                "text": "#000"
+            },
+            "medications": [
+                {
+                    "name": "Dexmedetomidin",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~ak------A"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "<var -----> μg/ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "<var -----> μg Dexmedetomidin"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "4 μg/ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "200 μg Dexmedetomidin"
+                        }
+                    ]
+                },
+                {
+                    "name": "esKETAmin",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~aa------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "<var -----> mg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "5 mg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "<bold,red 25> mg/ml"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "<var -----> mg/ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "<var -----> mg Esketamin"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "2 mg/ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "100 mg Esketamin"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "5 mg/ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "250 mg Esketamin"
+                        }
+                    ]
+                },
+                {
+                    "name": "Etomidat",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~ab------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "2 mg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "<var -----> mg/ml"
+                        }
+                    ]
+                },
+                {
+                    "name": "4-Hydroxybutyrat",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~ac------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "200 mg/ml"
+                        }
+                    ]
+                },
+                {
+                    "name": "KETAmin",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~ad------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "<var -----> mg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "10 mg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "50 mg/ml"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "<var -----> mg/ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "<var -----> mg Ketamin"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "5 mg/ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "250 mg Ketamin"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "10 mg/ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "500 mg Ketamin"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "20 mg/ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "1.000 mg Ketamin"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "50 mg/ml",
+                            "total": "2.500 mg Ketamin"
+                        }
+                    ]
+                },
+                {
+                    "name": "Methohexital",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~ae------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "10 mg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "<var -----> mg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "20 mg/ml"
+                        }
+                    ]
+                },
+                {
+                    "name": "Propofol",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~af------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "name": "Propofol 0,5%",
+                            "amount": "<red 5> mg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "name": "Propofol 1%",
+                            "amount": "<bold 10> mg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "name": "Propofol 2%",
+                            "amount": "<bold,red 20> mg/ml"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "<red 10> mg/ml",
+                            "name": "Propofol 1%"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "<red 20> mg/ml",
+                            "name": "Propofol 2%"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "<var -----> mg/ml",
+                            "name": "Propofol <var ----->%"
+                        }
+                    ]
+                },
+                {
+                    "name": "Thiopental",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~aj------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "<var -----> mg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "25 mg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "50 mg/ml"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "25 mg/ml",
+                            "solvent": "<bold 40> ml Aqua dest.",
+                            "total": "1.000 mg Thiopental"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "50 mg/ml",
+                            "solvent": "<bold 50> ml Aqua dest.",
+                            "total": "2.500 mg Thiopental"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Benzodiazepine",
+            "style": {
+                "type": "plain",
+                "background": "#ff6600",
+                "text": "#000"
+            },
+            "medications": [
+                {
+                    "name": "clonazePAM",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~ba------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "<var -----> mg/ml"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "<var -----> mg/ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "<var -----> mg Clonazepam"
+                        }
+                    ]
+                },
+                {
+                    "name": "Diazepam",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~bb------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "<var -----> mg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "5 mg/ml"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "<var -----> mg/ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "<var -----> mg Diazepam"
+                        }
+                    ]
+                },
+                {
+                    "name": "Dikaliumclorazepat",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~bc------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "20 mg/ml"
+                        }
+                    ]
+                },
+                {
+                    "name": "Flunitrazepam",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~bd------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "<var -----> mg/ml"
+                        }
+                    ]
+                },
+                {
+                    "name": "LORazepam",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~be------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "<var -----> mg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "2 mg/ml"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "<var -----> mg/ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "<var -----> mg Lorazepam"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "0,4 mg/ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "20 mg Lorazepam"
+                        }
+                    ]
+                },
+                {
+                    "name": "<white Midazolam>",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~bf------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "<var -----> mg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "1 mg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "2 mg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "5 mg/ml"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "<var -----> mg/ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "<var -----> ml",
+                            "total": "<var -----> mg <white Midazolam>"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "1 mg/ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "total": "<bold 45> mg <white Midazolam>"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "2 mg/ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "100 mg <white Midazolam>"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "5 mg/ml"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Benzodiazepin-Antagonisten",
+            "style": {
+                "type": "border-hattched",
+                "border": "#ff6600",
+                "text": "#000"
+            },
+            "medications": [
+                {
+                    "name": "Flumazenil",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~ca------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "<var -----> mg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "0,1 mg/ml"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Muskelrelaxantien",
+            "style": {
+                "type": "two-colors-horizontal",
+                "background-top": "#fff",
+                "background-bottom": "#f54029",
+                "text-top": "#000",
+                "text-bottom": "#000"
+            },
+            "medications": [
+                {
+                    "name": "Atracurium",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~da------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "<var -----> mg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "5 mg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "10 mg/ml"
+                        }
+                    ]
+                },
+                {
+                    "name": "Cisatracurium",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~db------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "<var -----> mg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "1 mg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "2 mg/ml"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "<var -----> mg/ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "<var -----> ml",
+                            "note": "<bold Muss separat laufen!>",
+                            "total": "<var -----> mg Cisatracurium"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "2 mg/ml",
+                            "note": "<bold Muss separat laufen!> "
+                        }
+                    ]
+                },
+                {
+                    "name": "Mivacurium",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~dc------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "<var -----> mg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "1 mg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "2 mg/ml"
+                        }
+                    ]
+                },
+                {
+                    "name": "PANcuronium",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~dd------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "<var -----> mg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "2 mg/ml"
+                        }
+                    ]
+                },
+                {
+                    "name": "ROCuronium",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~de------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "<var -----> mg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "1 mg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "5 mg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "10 mg/ml"
+                        }
+                    ]
+                },
+                {
+                    "name": "VECuronium",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~df------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "<var -----> mg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "2 mg/ml"
+                        }
+                    ]
+                },
+                {
+                    "name": "Suxamethonium",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~dg------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "<var -----> mg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "10 mg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "20 mg/ml"
+                        }
+                    ],
+                    "style": {
+                        "text-top": "#fff",
+                        "text-bottom": "#000",
+                        "type": "two-colors-horizontal",
+                        "background-top": "#000",
+                        "background-bottom": "#f54029"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Muskelrelaxans-Antagonisten",
+            "style": {
+                "type": "border-hattched",
+                "border": "#f54029",
+                "text": "#000"
+            },
+            "medications": [
+                {
+                    "name": "Edrophonium",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~ea------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "<var -----> mg/ml"
+                        }
+                    ]
+                },
+                {
+                    "name": "Neostigmin",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~eb------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "<var -----> mg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "0,5 mg/ml"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Opioide",
+            "style": {
+                "type": "plain",
+                "background": "#85c7e3",
+                "text": "#000"
+            },
+            "medications": [
+                {
+                    "name": "Alfentanil",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~fa------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "<var -----> mg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "0,5 mg/ml"
+                        }
+                    ]
+                },
+                {
+                    "name": "Buprenorphin",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~fb------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "<var -----> mg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "0,3 mg/ml"
+                        }
+                    ]
+                },
+                {
+                    "name": "fentaNYL",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~fc------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "<var -----> μg/ml"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "<var -----> μg/ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "<var -----> mg Fentanyl"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "30 μg/ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "1,5 mg Fentanyl"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "50 μg/ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "2,5 mg Fentanyl"
+                        }
+                    ]
+                },
+                {
+                    "name": "HYDROmorphon",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~fd------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "<var -----> mg/ml"
+                        }
+                    ]
+                },
+                {
+                    "name": "Levomethadon",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~fe------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "<var -----> mg/ml"
+                        }
+                    ]
+                },
+                {
+                    "name": "Morphin",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~ff------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "<var -----> mg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "1 mg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "10 mg/ml"
+                        },
+                        {
+                            "labelType": "plus",
+                            "amount": "<var -----> mg"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "<var -----> mg/ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "<var -----> mg Morphin"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "1 mg/ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "50 mg Morphin"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "1,2 mg/ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "60 mg Morphin"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "2 mg/ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "100 mg Morphin"
+                        }
+                    ]
+                },
+                {
+                    "name": "oxyCODON",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~fg------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "<var -----> mg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "1 mg/ml"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "1 mg/ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "50 mg Oxycodon"
+                        }
+                    ]
+                },
+                {
+                    "name": "Pethidin",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~fh------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "<var -----> mg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "5 mg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "50 mg/ml"
+                        }
+                    ]
+                },
+                {
+                    "name": "<white PIRItramid>",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~fi------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "<var -----> mg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "1 mg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "1,5 mg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "7,5 mg/ml"
+                        },
+                        {
+                            "labelType": "plus",
+                            "amount": "<var -----> mg"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "<var -----> mg/ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "<var -----> mg <white Piritramid>"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "0,9 mg/ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "45 mg <white Piritramid>"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "1 mg/ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "<bold 45> ml",
+                            "total": "45 mg <white Piritramid>"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "1,5 mg/ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "75 mg <white Piritramid>"
+                        }
+                    ]
+                },
+                {
+                    "name": "Remifentanil",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~fj------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "<var -----> μg/ml",
+                            "_note": "Die Verwendung von großen Etiketten wird empfohlen."
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "20 μg/ml",
+                            "_note": "Die Verwendung von großen Etiketten wird empfohlen."
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "60 μg/ml",
+                            "_note": "Die Verwendung von großen Etiketten wird empfohlen."
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "100 μg/ml",
+                            "_note": "Die Verwendung von großen Etiketten wird empfohlen."
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "<var -----> μg/ml",
+                            "solvent": "<var ---------->",
+                            "volume": "<var -----> ml",
+                            "total": "<var -----> mg Remifentanil"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "10 μg/ml",
+                            "solvent": "<var ---------->",
+                            "volume": "50 ml",
+                            "total": "0,5 mg Remifentanil"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "20 μg/ml",
+                            "solvent": "<var ---------->",
+                            "volume": "50 ml",
+                            "total": "1 mg Remifentanil"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "40 μg/ml",
+                            "solvent": "<var ---------->",
+                            "volume": "50 ml",
+                            "total": "2 mg Remifentanil"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "60 μg/ml",
+                            "solvent": "<var ---------->",
+                            "volume": "50 ml",
+                            "total": "3 mg Remifentanil"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "100 μg/ml",
+                            "solvent": "<var ---------->",
+                            "volume": "50 ml",
+                            "total": "5 mg Remifentanil"
+                        }
+                    ]
+                },
+                {
+                    "name": "SUFentanil",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~fk------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "<var -----> μg/ml"
+                        },
+                        {
+                            "labelType": "small"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "5 μg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "10 μg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "20 μg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "<bold,white 50> μg/ml"
+                        },
+                        {
+                            "labelType": "plus",
+                            "amount": "<var -----> μg"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "<var -----> μg/ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "<var -----> μg Sufentanil"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "5 μg/ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "250 μg Sufentanil"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "10 μg/ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "500 μg Sufentanil"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "15 μg/ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "750 μg Sufentanil"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "20 μg/ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "1.000 μg Sufentanil"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "25 μg/ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "1.250 μg Sufentanil"
+                        }
+                    ]
+                },
+                {
+                    "name": "traMADol",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~fl------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "<var -----> mg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "50 mg/ml"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "10 mg/ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "500 mg Tramadol"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Opioid-Antagonisten",
+            "style": {
+                "type": "border-hattched",
+                "border": "#85c7e3",
+                "text": "#000"
+            },
+            "medications": [
+                {
+                    "name": "Naloxon",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~ga------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "<var -----> μg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "40 μg/ml"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Vasopressoren",
+            "style": {
+                "type": "plain",
+                "background": "#debfd9",
+                "text": "#000"
+            },
+            "medications": [
+                {
+                    "name": "Cafedrin/Theodrenalin",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~hb------A"
+                        },
+                        {
+                            "name": "Akrinor®",
+                            "labelType": "line",
+                            "dsec": "~ha------A"
+                        },
+                        {
+                            "labelType": "small"
+                        },
+                        {
+                            "name": "Akrinor®",
+                            "labelType": "small"
+                        }
+                    ]
+                },
+                {
+                    "name": "ePHEDrin",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~hd------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "<var -----> mg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "5 mg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "10 mg/ml"
+                        }
+                    ]
+                },
+                {
+                    "name": "DOPamin",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~hc------A"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "<var -----> mg/ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "<var -----> mg Dopamin"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "5 mg/ml"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "10 mg/ml"
+                        }
+                    ]
+                },
+                {
+                    "name": "EPINEPHrin",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "name": "<white EPINEPHrin>",
+                            "dsec": "~he------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "<var -----> mg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "0,1 mg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "10 μg/ml"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "<var -----> μg/ml< >",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "<var -----> mg Epinephrin"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "10 μg/ml< >",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "0,5 mg Epinephrin"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "50 μg/ml< >",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "2,5 mg Epinephrin"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "0,1 mg/ml< >",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "5 mg Epinephrin"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "0,2 mg/ml< >",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "10 mg Epinephrin"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "0,5 mg/ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "25 mg Epinephrin"
+                        }
+                    ],
+                    "style": {
+                        "text-top": "#debfd9",
+                        "text-bottom": "#000",
+                        "type": "two-colors-horizontal",
+                        "background-top": "#000",
+                        "background-bottom": "#debfd9"
+                    }
+                },
+                {
+                    "name": "Norepinephrin",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~hf------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "0,1 mg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "10 μg/ml"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "<var -----> mg/ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "<var -----> mg Norepinephrin"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "20 μg/ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "1 mg Norepinephrin"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "0,1 mg/ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "5 mg Norepinephrin"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "0,2 mg/ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "10 mg Norepinephrin"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "0,5 mg/ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "25 mg Norepinephrin"
+                        }
+                    ]
+                },
+                {
+                    "name": "Phenylephrin",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~hg------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "<var -----> mg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "40 μg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "0,1 mg/ml"
+                        }
+                    ]
+                },
+                {
+                    "name": "Terlipresssin",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~hh------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "<var -----> mg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "0,1 mg/ml"
+                        }
+                    ]
+                },
+                {
+                    "name": "Vasopressin",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~hi------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "<var -----> i.E./ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "20 i.E./ml"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "1 i.E./ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "<bold 40> ml",
+                            "total": "40 i.E. Vasopressin"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Vasodilatatoren",
+            "style": {
+                "type": "border-hattched",
+                "border": "#debfd9",
+                "text": "#000"
+            },
+            "medications": [
+                {
+                    "name": "Alprostadil",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~ia------A"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "<var -----> μg/ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "<var -----> μg Alprostadil"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "10 μg/ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "500 μg Alprostadil"
+                        }
+                    ]
+                },
+                {
+                    "name": "cloNIDin",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~ib------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "<var -----> μg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "10 μg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "15 μg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "30 μg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "75 μg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "150 μg/ml"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "<var -----> μg/ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "<var -----> mg Clonidin"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "15 μg/ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "0,75 mg Clonidin"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "30 μg/ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "1,5 mg Clonidin"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "45 μg/ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "2,25 mg Clonidin"
+                        }
+                    ]
+                },
+                {
+                    "name": "dihydrALAZIN",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~ic------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "<var -----> mg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "2,5 mg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "12,5 mg/ml"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "<var -----> mg/ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "<var -----> mg Dihydralazin"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "0,5 mg/ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "25 mg Dihydralazin"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "1 mg/ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "50 mg Dihydralazin"
+                        }
+                    ]
+                },
+                {
+                    "name": "Enalapril",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~id------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "<var -----> mg/ml"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "0,1 mg/ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "5 mg Enalapril"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "50 μg/ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "2,5 mg Enalapril"
+                        }
+                    ]
+                },
+                {
+                    "name": "Epoprostenol",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~ie------A"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "10 μg/ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "500 μg Epoprostenol"
+                        }
+                    ]
+                },
+                {
+                    "name": "<bold G>lycerol<bold T>ri<bold N>itrat",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~if------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "1 mg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "<var -----> mg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "50 μg/ml"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "<var -----> μg/ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "<var -----> mg Glyceroltrinitrat"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "1 mg/ml"
+                        }
+                    ]
+                },
+                {
+                    "name": "Molsidomin",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~ih------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "2 mg/ml"
+                        }
+                    ]
+                },
+                {
+                    "name": "Iloprost",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~ig------A"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "<var -----> μg/ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "<var -----> μg Iloprost"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "2 μg/ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "100 μg Iloprost"
+                        }
+                    ]
+                },
+                {
+                    "name": "NIFEdipin",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~ii------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "<var -----> mg/ml"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "0,1 mg/ml"
+                        }
+                    ]
+                },
+                {
+                    "name": "niMODipin",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~ij------A"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "0,2 mg/ml",
+                            "note": "<bold Muss separat laufen!> "
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "50 μg/ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "note": "<bold Muss separat laufen!>",
+                            "total": "2,5 mg Nimodipin"
+                        }
+                    ]
+                },
+                {
+                    "name": "Nitroprussid-Na",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~ik------A"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "1,2 mg/ml",
+                            "solvent": "G 5%",
+                            "volume": "50 ml",
+                            "note": "<bold Lichtempfindlich!>",
+                            "total": "60 mg Nitroprussid-Na"
+                        }
+                    ]
+                },
+                {
+                    "name": "Phentolamin",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~il------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "<var -----> mg/ml"
+                        }
+                    ]
+                },
+                {
+                    "name": "Urapidil",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~im------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "<var -----> mg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "2 mg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "5 mg/ml"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "<var -----> mg/ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "<var -----> mg Urapidil"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "2 mg/ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "100 mg Urapidil"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "2,5 mg/ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "125 mg Urapidil"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "5 mg/ml"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Lokalanästhetika",
+            "style": {
+                "type": "plain",
+                "background": "#c2b8ab",
+                "text": "#000"
+            },
+            "medications": [
+                {
+                    "name": "BUPIvacain",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~ja------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "<var -----> %"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "<var -----> mg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "2,5 mg/ml"
+                        },
+                        {
+                            "labelType": "plus",
+                            "name": "BUPIvacain <var ----->%",
+                            "amount": "<var ----->ml = <var ----->mg"
+                        }
+                    ]
+                },
+                {
+                    "name": "Lidocain",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~jc------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "<var -----> %"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "<var -----> mg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "10 mg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "20 mg/ml"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "<var -----> mg/ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "<var -----> ml (<var -----> mg) Lidocain 2%"
+                        }
+                    ]
+                },
+                {
+                    "name": "Mepivacain",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~jf------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "<var -----> %"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "<var -----> mg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "10 mg/ml"
+                        }
+                    ]
+                },
+                {
+                    "name": "Prilocain",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~jh------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "<var -----> %"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "<var -----> mg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "10 mg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "20 mg/ml"
+                        }
+                    ]
+                },
+                {
+                    "name": "ROPIvacain",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~jk------A"
+                        },
+                        {
+                            "labelType": "plus",
+                            "name": "ROPIvacain <var ----->%",
+                            "amount": "<var ----->ml = <var ----->mg"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "<var -----> %"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "<var -----> mg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "2 mg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "3,75 mg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "5 mg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "7,5 mg/ml"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "<var -----> mg/ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "<var -----> ml (<var -----> mg) Ropivacain 1%"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "1,2 mg/ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "6 ml (60 mg) Ropivacain 1%"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "1,6 mg/ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "8 ml (80 mg) Ropivacain 1%"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "2 mg/ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "10 ml (100 mg) Ropivacain 1%"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "2,5 mg/ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "12,5 ml (125 mg) Ropivacain 1%"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "3 mg/ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "15 ml (150 mg) Ropivacain 1%"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "4,5 mg/ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "22,5 ml (225 mg) Ropivacain 1%"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Anticholinergika",
+            "style": {
+                "type": "plain",
+                "background": "#a9d963",
+                "text": "#000"
+            },
+            "medications": [
+                {
+                    "name": "Atropin",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~ka------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "<var -----> mg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "0,1 mg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "0,5 mg/ml"
+                        }
+                    ]
+                },
+                {
+                    "name": "Butylscopolamin",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~kb------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "<var -----> mg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "20 mg/ml"
+                        }
+                    ]
+                },
+                {
+                    "name": "Glycopyrronium",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~kc------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "<var -----> mg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "0,2 mg/ml"
+                        }
+                    ]
+                },
+                {
+                    "name": "Trospium",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~kd------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "0,6 mg/ml"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Cholinergika",
+            "style": {
+                "type": "border-hattched",
+                "border": "#a9d963",
+                "text": "#000"
+            },
+            "medications": [
+                {
+                    "name": "pHYSostigmin",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~la------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "<var -----> mg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "0,4 mg/ml"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "0,16 mg/ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "8 mg Physostigmin"
+                        }
+                    ]
+                },
+                {
+                    "name": "pYRIDostigmin",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~lb------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "<var -----> mg/ml"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "0,3 mg/ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "15 mg Pyridostigmin"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Antiemetika",
+            "style": {
+                "type": "plain",
+                "background": "#edc282",
+                "text": "#000"
+            },
+            "medications": [
+                {
+                    "name": "dimenhyDRINAT",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~ma------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "<var -----> mg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "6,2 mg/ml"
+                        }
+                    ]
+                },
+                {
+                    "name": "DOLAsetron",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~mb------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "<var -----> mg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "20 mg/ml"
+                        }
+                    ]
+                },
+                {
+                    "name": "Droperidol",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~mc------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "<var -----> mg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "2,5 mg/ml"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "2,5 mg/ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "125 mg Droperidol"
+                        }
+                    ]
+                },
+                {
+                    "name": "GRANIsetron",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~md------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "<var -----> mg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "1 mg/ml"
+                        }
+                    ]
+                },
+                {
+                    "name": "<bold M>eto<bold C>lo<bold P>ramid",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~me------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "<var -----> mg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "5 mg/ml"
+                        },
+                        {
+                            "labelType": "plus",
+                            "amount": "<var -----> mg"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "1 mg/ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "50 mg Metoclopramid"
+                        }
+                    ]
+                },
+                {
+                    "name": "ONDANsetron",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~mf------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "<var -----> mg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "2 mg/ml"
+                        }
+                    ]
+                },
+                {
+                    "name": "TROPIsetron",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~mg------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "<var -----> mg/ml"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Antikoagulantien",
+            "style": {
+                "type": "border-solid",
+                "border": "#000",
+                "background": "#cfc9c4",
+                "text": "#000"
+            },
+            "medications": [
+                {
+                    "name": "Abciximab",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~na------A"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "150 μg/ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "7,5 mg Abciximab"
+                        }
+                    ]
+                },
+                {
+                    "name": "Alteplase",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~nb------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "<var -----> <red mg/ml>"
+                        },
+                        {
+                            "name": "<red Alteplase>",
+                            "labelType": "large",
+                            "dose": "<var -----> <red mg/ml>",
+                            "solvent": "<var -----> ml Aqua dest.",
+                            "total": "<var -----> mg Alteplase"
+                        }
+                    ]
+                },
+                {
+                    "name": "Argatroban",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~nc------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "<var -----> mg/ml"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "1 mg/ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "50 mg Argatroban"
+                        }
+                    ]
+                },
+                {
+                    "name": "Danaparoid-Na",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~nd------A"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "60 i.E./ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "3.000 i.E. Danaparoid-Na"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "75 i.E./ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "3.750 i.E. Danaparoid-Na"
+                        }
+                    ]
+                },
+                {
+                    "name": "Enoxaparin",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~ne------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "100 mg/ml"
+                        }
+                    ]
+                },
+                {
+                    "name": "Heparin",
+                    "style": {
+                        "type": "border-solid",
+                        "border": "#000",
+                        "text": "#000"
+                    },
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~nf------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "<var -----> i.E./ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "200 i.E./ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "250 i.E./ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "400 i.E./ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "500 i.E./ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "1.000 i.E./ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "5.000 i.E./ml"
+                        },
+                        {
+                            "labelType": "plus",
+                            "amount": "<var -----> i.E."
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "<var -----> i.E./ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "<var -----> i.E. Heparin"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "<red 200> i.E./ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "10.000 i.E. Heparin"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "<red 250> i.E./ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "12.500 i.E. Heparin"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "<red 400> i.E./ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "20.000 i.E. Heparin"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "<red 500> i.E./ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "25.000 i.E. Heparin"
+                        }
+                    ]
+                },
+                {
+                    "name": "Lepirudin",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~ng------A"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "1 mg/ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "50 mg Lepirudin"
+                        }
+                    ]
+                },
+                {
+                    "name": "Streptokinase",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~nh------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "<var -----> i.E./ml"
+                        }
+                    ]
+                },
+                {
+                    "name": "Urokinase",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~ni------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "<var -----> i.E./ml"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Koagulantien",
+            "style": {
+                "type": "border-hattched",
+                "border": "#000",
+                "background": "#cfc9c4",
+                "text": "#000"
+            },
+            "medications": [
+                {
+                    "name": "Protamin",
+                    "style": {
+                        "type": "border-hattched",
+                        "border": "#000",
+                        "text": "#000"
+                    },
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~oa------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "1.000 i.E./ml"
+                        }
+                    ]
+                },
+                {
+                    "name": "Tranexam<sub säure>",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~ob------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "100 mg/ml"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "40 mg/ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "2 g Tranexamsäure"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Antiarrhythmika",
+            "style": {
+                "type": "two-colors-diagonal",
+                "background-top": "#008ccc",
+                "background-bottom": "#bf1238",
+                "text-top": "#fff",
+                "text-bottom": "#fff"
+            },
+            "medications": [
+                {
+                    "name": "aDENOsin",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~pa------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "<var -----> mg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "3 mg/ml"
+                        }
+                    ]
+                },
+                {
+                    "name": "aJMALin",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~pb------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "<var -----> mg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "5 mg/ml"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "5 mg/ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "250 mg Ajmalin"
+                        }
+                    ]
+                },
+                {
+                    "name": "aMIOdaron",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~pc------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "<var -----> mg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "30 mg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "50 mg/ml"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "<var -----> mg/ml",
+                            "solvent": "G 5%",
+                            "volume": "50 ml",
+                            "note": "Muss separat laufen!",
+                            "total": "<var -----> mg Amiodaron"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "18 mg/ml",
+                            "solvent": "G 5%",
+                            "volume": "50 ml",
+                            "note": "Muss separat laufen!",
+                            "total": "900 mg Amiodaron"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "21 mg/ml",
+                            "solvent": "G 5%",
+                            "volume": "50 ml",
+                            "note": "Muss separat laufen!",
+                            "total": "1050 mg Amiodaron"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "25 mg/ml",
+                            "solvent": "G 5%",
+                            "volume": "50 ml",
+                            "note": "Muss separat laufen!",
+                            "total": "1250 mg Amiodaron"
+                        }
+                    ]
+                },
+                {
+                    "name": "Esmolol",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~pd------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "10 mg/ml"
+                        }
+                    ]
+                },
+                {
+                    "name": "Flecainid",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~pe------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "10 mg/ml"
+                        }
+                    ]
+                },
+                {
+                    "name": "Metoprolol",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~pf------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "<var -----> mg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "0,5 mg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "1 mg/ml"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "<var -----> mg/ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "<var -----> mg Metoprolol"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "0,2 mg/ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "10 mg Metoprolol"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "0,3 mg/ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "15 mg Metoprolol"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "0,4 mg/ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "20 mg Metoprolol"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "0,5 mg/ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "25 mg Metoprolol"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "1 mg/ml"
+                        }
+                    ]
+                },
+                {
+                    "name": "Pindolol",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~pg------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "0,2 mg/ml"
+                        }
+                    ]
+                },
+                {
+                    "name": "Propafenon",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~ph------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "3,5 mg/ml"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "2,8 mg/ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "140 mg Propafenon"
+                        }
+                    ]
+                },
+                {
+                    "name": "Sotalol",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~pi------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "10 mg/ml"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "1,6 mg/ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "80 mg Sotalol"
+                        }
+                    ]
+                },
+                {
+                    "name": "Verapamil",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~pj------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "<var -----> mg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "1 mg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "2,5 mg/ml"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "<var -----> mg/ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "<var -----> mg Verapamil"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "1 mg/ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "50 mg Verapamil"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Antikonvulsiva",
+            "style": {
+                "type": "two-colors-diagonal",
+                "background-top": "#b826b3",
+                "background-bottom": "#636b70",
+                "text-top": "#fff",
+                "text-bottom": "#fff"
+            },
+            "medications": [
+                {
+                    "name": "levETIRAcetam",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~qa------A"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "<var -----> mg/ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "note": "Kont. Gabe off-label",
+                            "total": "<var -----> mg Levetiracetam"
+                        }
+                    ]
+                },
+                {
+                    "name": "Phenobarbital",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~qb------A"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "<var -----> mg/ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "<var -----> mg Phenobarbital"
+                        }
+                    ]
+                },
+                {
+                    "name": "Phenytoin",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~qc------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "<var -----> mg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "50 mg/ml"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "<var -----> mg/ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "<var -----> mg Phenytoin"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "15 mg/ml"
+                        }
+                    ]
+                },
+                {
+                    "name": "Valproin<sub säure>",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~qd------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "<var -----> mg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "100 mg/ml"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "<var -----> mg/ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "<var -----> mg Valproinsäure"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "24 mg/ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "1.200 mg Valproinsäure"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Bronchodilatatoren",
+            "style": {
+                "type": "two-colors-diagonal",
+                "background-top": "#82591f",
+                "background-bottom": "#2905a1",
+                "text-top": "#fff",
+                "text-bottom": "#fff"
+            },
+            "medications": [
+                {
+                    "name": "Fenoterol",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~ra------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "5 μg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "<var -----> μg/ml"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "<var -----> μg/ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "<var -----> mg Fenoterol"
+                        }
+                    ]
+                },
+                {
+                    "name": "Ipratropiumbromid",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~rb------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "<var -----> mg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "0,25 mg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "0,5 mg/ml"
+                        }
+                    ]
+                },
+                {
+                    "name": "Orciprenalin",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~rc------A",
+                            "_note": "Gruppierung als Bronchodilatator, obwohl oft zur Bradykardietherapie genutzt. Nicht bei den anderen Antiarrhythmika gruppiert, da diese vorwiegend antitachykard wirken."
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "<var -----> mg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "0,5 mg/ml"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "0,5 mg/ml",
+                            "total": "25 mg Orciprenalin"
+                        }
+                    ]
+                },
+                {
+                    "name": "Reproterol",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~rd------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "<var -----> μg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "90 μg/ml"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "<var -----> μg/ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "<var -----> μg Reproterol"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "9 μg/ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "450 μg Reproterol"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "18 μg/ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "900 μg Reproterol"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "43,2 μg/ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "2.160 μg Reproterol"
+                        }
+                    ]
+                },
+                {
+                    "name": "Salbutamol",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~re------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "<var -----> mg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "0,3 mg/ml"
+                        }
+                    ]
+                },
+                {
+                    "name": "Theophyllin",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~rf------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "<var -----> mg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "20 mg/ml"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "<var -----> mg/ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "<var -----> mg Theophyllin"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "8 mg/ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "400 mg Theophyllin"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "12 mg/ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "600 mg Theophyllin"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "20 mg/ml"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Elektrolyte",
+            "style": {
+                "type": "two-colors-diagonal",
+                "background-top": "#ab035c",
+                "background-bottom": "#006338",
+                "text-top": "#fff",
+                "text-bottom": "#fff"
+            },
+            "medications": [
+                {
+                    "name": "Calcium<sub chlorid> 5,5%",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~sa------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "0,5 mmol Ca/ml"
+                        }
+                    ]
+                },
+                {
+                    "name": "Calcium<sub gluconat> 10%",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~sb------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "0,23 mmol Ca/ml"
+                        },
+                        {
+                            "labelType": "large",
+                            "note": "0,23 mmol Ca/ml",
+                            "total": "Calciumgluconat 10%"
+                        }
+                    ]
+                },
+                {
+                    "name": "<sub Glyceroldihydrogen->Phosphat",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~sc------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "1 mmol PO43-/ml"
+                        }
+                    ]
+                },
+                {
+                    "name": "Kaliumchlorid",
+                    "variations": [
+                        {
+                            "labelType": "line"
+                        },
+                        {
+                            "labelType": "small",
+                            "name": "KCl 7,45%",
+                            "amount": "1 mmol/ml"
+                        },
+                        {
+                            "labelType": "plus",
+                            "name": "KCl",
+                            "amount": "<var -----> mmol"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "1 mmol/ml",
+                            "name": "KCl 7,45%"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "2 mmol/ml",
+                            "name": "KCl 14,9%"
+                        }
+                    ],
+                    "style": {
+                        "text-bottom": "#fff",
+                        "text-top": "#fff",
+                        "type": "two-colors-diagonal",
+                        "background-top": "#008ccc",
+                        "background-bottom": "#006338"
+                    }
+                },
+                {
+                    "name": "Kalium-L-Malat",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~sf------A"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "1 mmol/ml",
+                            "name": "Kalium-L-Malat 17,21%"
+                        }
+                    ]
+                },
+                {
+                    "name": "Magnesiumasparat",
+                    "variations": [
+                        {
+                            "labelType": "line"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "0,3 mmol Mg/ml"
+                        }
+                    ]
+                },
+                {
+                    "name": "Magnesium<sub sulfat>",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~sh------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "0,4 mmol Mg/ml"
+                        },
+                        {
+                            "labelType": "plus",
+                            "name": "Magnesium<sub sulfat> 50%",
+                            "amount": "<var -----> g"
+                        },
+                        {
+                            "labelType": "large",
+                            "name": "Magnesium<sub sulfat> 50%",
+                            "total": "2 mmol Mg/ml"
+                        },
+                        {
+                            "labelType": "large",
+                            "name": "Magnesium<sub sulfat> 10%",
+                            "total": "0,4 mmol Mg/ml"
+                        },
+                        {
+                            "labelType": "large",
+                            "name": "Magnesium<sub sulfat> 50%",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "2 mmol Mg/ml"
+                        }
+                    ]
+                },
+                {
+                    "name": "Natriumchlorid 0,9%",
+                    "style": {
+                        "text": "#fff",
+                        "type": "plain",
+                        "background": "#006338"
+                    },
+                    "variations": [
+                        {
+                            "labelType": "line"
+                        },
+                        {
+                            "name": "NaCl 0,9%",
+                            "labelType": "small"
+                        }
+                    ]
+                },
+                {
+                    "name": "Natriumchlorid 0,45%",
+                    "variations": [
+                        {
+                            "labelType": "line"
+                        },
+                        {
+                            "name": "NaCl 0,45%",
+                            "labelType": "large"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "0,45%",
+                            "volume": "50 ml",
+                            "total": "25 ml NaCl 0,9% + 25 ml Aqua dest."
+                        }
+                    ]
+                },
+                {
+                    "name": "NaCl 5,85%",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~sk------A"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "1 mmol/ml",
+                            "total": "Natriumchlorid 1 molar (5,85%)"
+                        }
+                    ]
+                },
+                {
+                    "name": "<sub Na->Hydrogencarbonat",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~sl------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "<var -----> mmol/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "1 mmol/ml"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "<var -----> mmol/ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "<var -----> ml Natriumhydrogencarbonat 8,4%"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "1 mmol/ml",
+                            "name": "Natriumhydrogencarbonat 8,4%"
+                        }
+                    ]
+                },
+                {
+                    "name": "<sub Na->Phosphat <sub Braun®>",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~sm------A"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "0,6 mmol PO43-/ml",
+                            "total": "1 mmol Na/ml"
+                        }
+                    ]
+                },
+                {
+                    "name": "<sub Na->Thiosulfat 10%",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~sn------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "100 mg/ml"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Hormone",
+            "style": {
+                "type": "two-colors-diagonal",
+                "background-top": "#d9cc61",
+                "background-bottom": "#70331f",
+                "text-top": "#fff",
+                "text-bottom": "#fff"
+            },
+            "medications": [
+                {
+                    "name": "desmoPRESSIN",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~ta------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "<var -----> μg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "4 μg/ml"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "<var -----> μg/ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "<var -----> μg Desmopressin"
+                        }
+                    ]
+                },
+                {
+                    "name": "DEXAmethason",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~tb------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "<var -----> mg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "4 mg/ml"
+                        }
+                    ]
+                },
+                {
+                    "name": "Hydrocortison",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~tc------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "<var -----> mg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "5 mg/ml"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "<var -----> mg/ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "<var -----> mg Hydrocortison"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "2 mg/ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "100 mg Hydrocortison"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "4 mg/ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "200 mg Hydrocortison"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "5 mg/ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "250 mg Hydrocortison"
+                        }
+                    ]
+                },
+                {
+                    "name": "LEVOthyroxin",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~te------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "<var -----> μg/ml"
+                        }
+                    ]
+                },
+                {
+                    "name": "LIOthyronin",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~tf------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "<var -----> mg/ml"
+                        }
+                    ]
+                },
+                {
+                    "name": "methylPREDNISolon",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~tg------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "<var -----> mg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "50 mg/ml"
+                        }
+                    ]
+                },
+                {
+                    "name": "prednisoLON",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~th------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "<var -----> mg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "100 mg/ml"
+                        }
+                    ]
+                },
+                {
+                    "name": "ocTREOtid",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~ti------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "<var -----> μg/ml"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "60 μg/ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "3 mg Octreotid"
+                        }
+                    ]
+                },
+                {
+                    "name": "OXYTOcin",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~tj------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "<var -----> i.E./ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "0,3 i.E./ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "3 i.E./ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "10 i.E./ml"
+                        },
+                        {
+                            "labelType": "plus",
+                            "amount": "<var -----> i.E."
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "0,2 i.E./ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "10 i.E. Oxytocin"
+                        }
+                    ]
+                },
+                {
+                    "name": "Somatostatin",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~tk------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "<var -----> mg/ml"
+                        }
+                    ]
+                },
+                {
+                    "name": "Sulproston",
+                    "variations": [
+                        {
+                            "labelType": "line"
+                        },
+                        {
+                            "labelType": "plus",
+                            "amount": "<var -----> μg"
+                        }
+                    ]
+                },
+                {
+                    "name": "Insulin",
+                    "style": {
+                        "type": "two-colors-diagonal",
+                        "background-top": "#f5e814",
+                        "background-bottom": "#70331f",
+                        "text-top": "#fff",
+                        "text-bottom": "#fff"
+                    },
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~td------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "<var -----> i.E./ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "1 i.E./ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "100 i.E./ml"
+                        },
+                        {
+                            "labelType": "plus",
+                            "amount": "<var -----> i.E."
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "<var -----> i.E./ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "<var -----> i.E. Insulin"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "1 i.E./ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "50 i.E. Insulin"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Inodilatatoren",
+            "style": {
+                "type": "two-colors-diagonal",
+                "background-top": "#63cc96",
+                "background-bottom": "#bf1238",
+                "text-top": "#fff",
+                "text-bottom": "#fff"
+            },
+            "medications": [
+                {
+                    "name": "DOBUTamin",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~ua------A"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "5 mg/ml"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "<var -----> mg/ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "<var -----> mg Dobutamin"
+                        }
+                    ]
+                },
+                {
+                    "name": "dOPEXamin",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~ub------A"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "<var -----> mg/ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "50 ml",
+                            "total": "<var -----> mg Dopexamin"
+                        }
+                    ]
+                },
+                {
+                    "name": "Enoximon",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~uc------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "5 mg/ml"
+                        }
+                    ]
+                },
+                {
+                    "name": "Levosimendan",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~ud------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "<var -----> mg/ml"
+                        }
+                    ]
+                },
+                {
+                    "name": "Milrinon",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~ue------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "<var -----> mg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "1 mg/ml"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Sonstige",
+            "style": {
+                "type": "plain",
+                "background": "#fff",
+                "text": "#000"
+            },
+            "medications": [
+                {
+                    "name": "Acetylcystein",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~va------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "100 mg/ml"
+                        }
+                    ]
+                },
+                {
+                    "name": "<bold A>cetyl<bold S>alicyl<bold S>äure",
+                    "variations": [
+                        {
+                            "labelType": "line"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "<var -----> mg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "100 mg/ml"
+                        }
+                    ]
+                },
+                {
+                    "name": "<sub Ca->FOLINAT",
+                    "variations": [
+                        {
+                            "labelType": "line"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "10 mg/ml"
+                        }
+                    ]
+                },
+                {
+                    "name": "Cernevit®",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~ve------A"
+                        },
+                        {
+                            "labelType": "small"
+                        }
+                    ]
+                },
+                {
+                    "name": "cIMEtidin",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~vf------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "<var -----> mg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "100 mg/ml"
+                        }
+                    ]
+                },
+                {
+                    "name": "cLEMAstin",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~vg------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "<var -----> mg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "2,5 mg/ml"
+                        }
+                    ]
+                },
+                {
+                    "name": "Dexketoprofen",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~vh------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "<var -----> mg/ml"
+                        }
+                    ]
+                },
+                {
+                    "name": "Dimetinden",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~vx------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "1 mg/ml"
+                        }
+                    ]
+                },
+                {
+                    "name": "4-<bold D>i<bold M>ethyl<bold A>mino<bold P>henol",
+                    "variations": [
+                        {
+                            "labelType": "line"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "50 mg/ml"
+                        }
+                    ]
+                },
+                {
+                    "name": "f<yellow URO> semid",
+                    "variations": [
+                        {
+                            "labelType": "line"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "<var -----> mg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "1 mg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "5 mg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "10 mg/ml"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "<var -----> mg/ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "volume": "<var -----> ml",
+                            "total": "<var -----> mg Furosemid"
+                        }
+                    ]
+                },
+                {
+                    "name": "Glucose",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~vl------A"
+                        },
+                        {
+                            "name": "Glucose 40%",
+                            "labelType": "line",
+                            "dsec": "~vm------A"
+                        },
+                        {
+                            "name": "Glucose 40%",
+                            "labelType": "small",
+                            "amount": "0,4 g/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "<var -----> %"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "<var -----> g/ml"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "<var -----> %"
+                        }
+                    ]
+                },
+                {
+                    "name": "Trometamol",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~vw------A"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "3 mmol/ml",
+                            "total": "Tris 36,34%"
+                        }
+                    ]
+                },
+                {
+                    "name": "Haloperidol",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~vo------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "<var -----> mg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "0,5 mg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "1 mg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "1,25 mg/ml"
+                        }
+                    ]
+                },
+                {
+                    "name": "Mesna",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~vp------A"
+                        },
+                        {
+                            "labelType": "small"
+                        }
+                    ]
+                },
+                {
+                    "name": "Metamizol",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~vq------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "<var -----> mg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "100 mg/ml"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "500 mg/ml"
+                        },
+                        {
+                            "labelType": "plus",
+                            "amount": "<var -----> g"
+                        },
+                        {
+                            "labelType": "large",
+                            "dose": "<var -----> mg/ml",
+                            "solvent": "<check -> NaCl 0,9% <check -> G 5%",
+                            "total": "<var -----> g Metamizol"
+                        }
+                    ]
+                },
+                {
+                    "name": "Omeprazol",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~vr------A"
+                        },
+                        {
+                            "labelType": "small"
+                        }
+                    ]
+                },
+                {
+                    "name": "Parecoxib",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~vs------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "20 mg/ml"
+                        }
+                    ]
+                },
+                {
+                    "name": "Salzsäure 7,25%",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~vt------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "2 mmol/ml"
+                        }
+                    ]
+                },
+                {
+                    "name": "Thiamin",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~vu------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "50 mg/ml"
+                        }
+                    ]
+                },
+                {
+                    "name": "Toluidinblau",
+                    "variations": [
+                        {
+                            "labelType": "line",
+                            "dsec": "~vv------A"
+                        },
+                        {
+                            "labelType": "small",
+                            "amount": "30 mg/ml"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,105 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "style.schema.json",
+    "title": "Grafikstil für Spritzenetiketten",
+    "oneOf": [
+        {
+            "type": "object",
+            "properties": {
+                "type": {
+                    "const": "plain"
+                },
+                "background": {
+                    "$ref": "color.schema.json"
+                },
+                "text": {
+                    "$ref": "color.schema.json"
+                }
+            },
+            "additionalProperties": false,
+            "required": ["type", "background", "text"]
+        },
+        {
+            "type": "object",
+            "properties": {
+                "type": {
+                    "const": "two-colors-horizontal"
+                },
+                "background-top": {
+                    "$ref": "color.schema.json"
+                },
+                "background-bottom": {
+                    "$ref": "color.schema.json"
+                },
+                "text-top": {
+                    "$ref": "color.schema.json"
+                },
+                "text-bottom": {
+                    "$ref": "color.schema.json"
+                }
+            },
+            "additionalProperties": false,
+            "required": ["type", "background-top", "background-bottom", "text-top", "text-bottom"]
+        },
+        {
+            "type": "object",
+            "properties": {
+                "type": {
+                    "const": "two-colors-diagonal"
+                },
+                "background-top": {
+                    "$ref": "color.schema.json"
+                },
+                "background-bottom": {
+                    "$ref": "color.schema.json"
+                },
+                "text-top": {
+                    "$ref": "color.schema.json"
+                },
+                "text-bottom": {
+                    "$ref": "color.schema.json"
+                }
+            },
+            "additionalProperties": false,
+            "required": ["type", "background-top", "background-bottom", "text-top", "text-bottom"]
+        },
+        {
+            "type": "object",
+            "properties": {
+                "type": {
+                    "const": "border-hattched"
+                },
+                "background": {
+                    "$ref": "color.schema.json"
+                },
+                "border": {
+                    "$ref": "color.schema.json"
+                },
+                "text": {
+                    "$ref": "color.schema.json"
+                }
+            },
+            "additionalProperties": false,
+            "required": ["type", "border", "text"]
+        },
+        {
+            "type": "object",
+            "properties": {
+                "type": {
+                    "const": "border-solid"
+                },
+                "background": {
+                    "$ref": "color.schema.json"
+                },
+                "border": {
+                    "$ref": "color.schema.json"
+                },
+                "text": {
+                    "$ref": "color.schema.json"
+                }
+            },
+            "additionalProperties": false,
+            "required": ["type", "border", "text"]
+        }
+    ]
+}
