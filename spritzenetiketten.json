@@ -46,15 +46,15 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "<var -----> mg/ml"
+                            "dose": "<var -----> mg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "5 mg/ml"
+                            "dose": "5 mg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "<bold,red 25> mg/ml"
+                            "dose": "<bold,red 25> mg/ml"
                         },
                         {
                             "labelType": "large",
@@ -88,11 +88,11 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "2 mg/ml"
+                            "dose": "2 mg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "<var -----> mg/ml"
+                            "dose": "<var -----> mg/ml"
                         }
                     ]
                 },
@@ -105,7 +105,7 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "200 mg/ml"
+                            "dose": "200 mg/ml"
                         }
                     ]
                 },
@@ -118,15 +118,15 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "<var -----> mg/ml"
+                            "dose": "<var -----> mg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "10 mg/ml"
+                            "dose": "10 mg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "50 mg/ml"
+                            "dose": "50 mg/ml"
                         },
                         {
                             "labelType": "large",
@@ -172,15 +172,15 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "10 mg/ml"
+                            "dose": "10 mg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "<var -----> mg/ml"
+                            "dose": "<var -----> mg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "20 mg/ml"
+                            "dose": "20 mg/ml"
                         }
                     ]
                 },
@@ -194,17 +194,17 @@
                         {
                             "labelType": "small",
                             "name": "Propofol 0,5%",
-                            "amount": "<red 5> mg/ml"
+                            "dose": "<red 5> mg/ml"
                         },
                         {
                             "labelType": "small",
                             "name": "Propofol 1%",
-                            "amount": "<bold 10> mg/ml"
+                            "dose": "<bold 10> mg/ml"
                         },
                         {
                             "labelType": "small",
                             "name": "Propofol 2%",
-                            "amount": "<bold,red 20> mg/ml"
+                            "dose": "<bold,red 20> mg/ml"
                         },
                         {
                             "labelType": "large",
@@ -232,15 +232,15 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "<var -----> mg/ml"
+                            "dose": "<var -----> mg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "25 mg/ml"
+                            "dose": "25 mg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "50 mg/ml"
+                            "dose": "50 mg/ml"
                         },
                         {
                             "labelType": "large",
@@ -275,7 +275,7 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "<var -----> mg/ml"
+                            "dose": "<var -----> mg/ml"
                         },
                         {
                             "labelType": "large",
@@ -295,11 +295,11 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "<var -----> mg/ml"
+                            "dose": "<var -----> mg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "5 mg/ml"
+                            "dose": "5 mg/ml"
                         },
                         {
                             "labelType": "large",
@@ -319,7 +319,7 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "20 mg/ml"
+                            "dose": "20 mg/ml"
                         }
                     ]
                 },
@@ -332,7 +332,7 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "<var -----> mg/ml"
+                            "dose": "<var -----> mg/ml"
                         }
                     ]
                 },
@@ -345,11 +345,11 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "<var -----> mg/ml"
+                            "dose": "<var -----> mg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "2 mg/ml"
+                            "dose": "2 mg/ml"
                         },
                         {
                             "labelType": "large",
@@ -376,19 +376,19 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "<var -----> mg/ml"
+                            "dose": "<var -----> mg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "1 mg/ml"
+                            "dose": "1 mg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "2 mg/ml"
+                            "dose": "2 mg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "5 mg/ml"
+                            "dose": "5 mg/ml"
                         },
                         {
                             "labelType": "large",
@@ -435,11 +435,11 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "<var -----> mg/ml"
+                            "dose": "<var -----> mg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "0,1 mg/ml"
+                            "dose": "0,1 mg/ml"
                         }
                     ]
                 }
@@ -464,15 +464,15 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "<var -----> mg/ml"
+                            "dose": "<var -----> mg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "5 mg/ml"
+                            "dose": "5 mg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "10 mg/ml"
+                            "dose": "10 mg/ml"
                         }
                     ]
                 },
@@ -485,15 +485,15 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "<var -----> mg/ml"
+                            "dose": "<var -----> mg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "1 mg/ml"
+                            "dose": "1 mg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "2 mg/ml"
+                            "dose": "2 mg/ml"
                         },
                         {
                             "labelType": "large",
@@ -519,15 +519,15 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "<var -----> mg/ml"
+                            "dose": "<var -----> mg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "1 mg/ml"
+                            "dose": "1 mg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "2 mg/ml"
+                            "dose": "2 mg/ml"
                         }
                     ]
                 },
@@ -540,11 +540,11 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "<var -----> mg/ml"
+                            "dose": "<var -----> mg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "2 mg/ml"
+                            "dose": "2 mg/ml"
                         }
                     ]
                 },
@@ -557,19 +557,19 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "<var -----> mg/ml"
+                            "dose": "<var -----> mg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "1 mg/ml"
+                            "dose": "1 mg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "5 mg/ml"
+                            "dose": "5 mg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "10 mg/ml"
+                            "dose": "10 mg/ml"
                         }
                     ]
                 },
@@ -582,11 +582,11 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "<var -----> mg/ml"
+                            "dose": "<var -----> mg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "2 mg/ml"
+                            "dose": "2 mg/ml"
                         }
                     ]
                 },
@@ -599,15 +599,15 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "<var -----> mg/ml"
+                            "dose": "<var -----> mg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "10 mg/ml"
+                            "dose": "10 mg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "20 mg/ml"
+                            "dose": "20 mg/ml"
                         }
                     ],
                     "style": {
@@ -637,7 +637,7 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "<var -----> mg/ml"
+                            "dose": "<var -----> mg/ml"
                         }
                     ]
                 },
@@ -650,11 +650,11 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "<var -----> mg/ml"
+                            "dose": "<var -----> mg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "0,5 mg/ml"
+                            "dose": "0,5 mg/ml"
                         }
                     ]
                 }
@@ -677,11 +677,11 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "<var -----> mg/ml"
+                            "dose": "<var -----> mg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "0,5 mg/ml"
+                            "dose": "0,5 mg/ml"
                         }
                     ]
                 },
@@ -694,11 +694,11 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "<var -----> mg/ml"
+                            "dose": "<var -----> mg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "0,3 mg/ml"
+                            "dose": "0,3 mg/ml"
                         }
                     ]
                 },
@@ -711,7 +711,7 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "<var -----> μg/ml"
+                            "dose": "<var -----> μg/ml"
                         },
                         {
                             "labelType": "large",
@@ -745,7 +745,7 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "<var -----> mg/ml"
+                            "dose": "<var -----> mg/ml"
                         }
                     ]
                 },
@@ -758,7 +758,7 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "<var -----> mg/ml"
+                            "dose": "<var -----> mg/ml"
                         }
                     ]
                 },
@@ -771,15 +771,15 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "<var -----> mg/ml"
+                            "dose": "<var -----> mg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "1 mg/ml"
+                            "dose": "1 mg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "10 mg/ml"
+                            "dose": "10 mg/ml"
                         },
                         {
                             "labelType": "plus",
@@ -824,11 +824,11 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "<var -----> mg/ml"
+                            "dose": "<var -----> mg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "1 mg/ml"
+                            "dose": "1 mg/ml"
                         },
                         {
                             "labelType": "large",
@@ -848,15 +848,15 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "<var -----> mg/ml"
+                            "dose": "<var -----> mg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "5 mg/ml"
+                            "dose": "5 mg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "50 mg/ml"
+                            "dose": "50 mg/ml"
                         }
                     ]
                 },
@@ -869,19 +869,19 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "<var -----> mg/ml"
+                            "dose": "<var -----> mg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "1 mg/ml"
+                            "dose": "1 mg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "1,5 mg/ml"
+                            "dose": "1,5 mg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "7,5 mg/ml"
+                            "dose": "7,5 mg/ml"
                         },
                         {
                             "labelType": "plus",
@@ -926,22 +926,22 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "<var -----> μg/ml",
+                            "dose": "<var -----> μg/ml",
                             "_note": "Die Verwendung von großen Etiketten wird empfohlen."
                         },
                         {
                             "labelType": "small",
-                            "amount": "20 μg/ml",
+                            "dose": "20 μg/ml",
                             "_note": "Die Verwendung von großen Etiketten wird empfohlen."
                         },
                         {
                             "labelType": "small",
-                            "amount": "60 μg/ml",
+                            "dose": "60 μg/ml",
                             "_note": "Die Verwendung von großen Etiketten wird empfohlen."
                         },
                         {
                             "labelType": "small",
-                            "amount": "100 μg/ml",
+                            "dose": "100 μg/ml",
                             "_note": "Die Verwendung von großen Etiketten wird empfohlen."
                         },
                         {
@@ -997,26 +997,26 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "<var -----> μg/ml"
+                            "dose": "<var -----> μg/ml"
                         },
                         {
                             "labelType": "small"
                         },
                         {
                             "labelType": "small",
-                            "amount": "5 μg/ml"
+                            "dose": "5 μg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "10 μg/ml"
+                            "dose": "10 μg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "20 μg/ml"
+                            "dose": "20 μg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "<bold,white 50> μg/ml"
+                            "dose": "<bold,white 50> μg/ml"
                         },
                         {
                             "labelType": "plus",
@@ -1075,11 +1075,11 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "<var -----> mg/ml"
+                            "dose": "<var -----> mg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "50 mg/ml"
+                            "dose": "50 mg/ml"
                         },
                         {
                             "labelType": "large",
@@ -1109,11 +1109,11 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "<var -----> μg/ml"
+                            "dose": "<var -----> μg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "40 μg/ml"
+                            "dose": "40 μg/ml"
                         }
                     ]
                 }
@@ -1157,15 +1157,15 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "<var -----> mg/ml"
+                            "dose": "<var -----> mg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "5 mg/ml"
+                            "dose": "5 mg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "10 mg/ml"
+                            "dose": "10 mg/ml"
                         }
                     ]
                 },
@@ -1203,15 +1203,15 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "<var -----> mg/ml"
+                            "dose": "<var -----> mg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "0,1 mg/ml"
+                            "dose": "0,1 mg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "10 μg/ml"
+                            "dose": "10 μg/ml"
                         },
                         {
                             "labelType": "large",
@@ -1273,11 +1273,11 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "0,1 mg/ml"
+                            "dose": "0,1 mg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "10 μg/ml"
+                            "dose": "10 μg/ml"
                         },
                         {
                             "labelType": "large",
@@ -1325,15 +1325,15 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "<var -----> mg/ml"
+                            "dose": "<var -----> mg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "40 μg/ml"
+                            "dose": "40 μg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "0,1 mg/ml"
+                            "dose": "0,1 mg/ml"
                         }
                     ]
                 },
@@ -1346,11 +1346,11 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "<var -----> mg/ml"
+                            "dose": "<var -----> mg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "0,1 mg/ml"
+                            "dose": "0,1 mg/ml"
                         }
                     ]
                 },
@@ -1363,11 +1363,11 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "<var -----> i.E./ml"
+                            "dose": "<var -----> i.E./ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "20 i.E./ml"
+                            "dose": "20 i.E./ml"
                         },
                         {
                             "labelType": "large",
@@ -1420,27 +1420,27 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "<var -----> μg/ml"
+                            "dose": "<var -----> μg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "10 μg/ml"
+                            "dose": "10 μg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "15 μg/ml"
+                            "dose": "15 μg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "30 μg/ml"
+                            "dose": "30 μg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "75 μg/ml"
+                            "dose": "75 μg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "150 μg/ml"
+                            "dose": "150 μg/ml"
                         },
                         {
                             "labelType": "large",
@@ -1481,15 +1481,15 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "<var -----> mg/ml"
+                            "dose": "<var -----> mg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "2,5 mg/ml"
+                            "dose": "2,5 mg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "12,5 mg/ml"
+                            "dose": "12,5 mg/ml"
                         },
                         {
                             "labelType": "large",
@@ -1523,7 +1523,7 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "<var -----> mg/ml"
+                            "dose": "<var -----> mg/ml"
                         },
                         {
                             "labelType": "large",
@@ -1566,15 +1566,15 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "1 mg/ml"
+                            "dose": "1 mg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "<var -----> mg/ml"
+                            "dose": "<var -----> mg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "50 μg/ml"
+                            "dose": "50 μg/ml"
                         },
                         {
                             "labelType": "large",
@@ -1598,7 +1598,7 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "2 mg/ml"
+                            "dose": "2 mg/ml"
                         }
                     ]
                 },
@@ -1634,7 +1634,7 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "<var -----> mg/ml"
+                            "dose": "<var -----> mg/ml"
                         },
                         {
                             "labelType": "large",
@@ -1690,7 +1690,7 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "<var -----> mg/ml"
+                            "dose": "<var -----> mg/ml"
                         }
                     ]
                 },
@@ -1703,15 +1703,15 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "<var -----> mg/ml"
+                            "dose": "<var -----> mg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "2 mg/ml"
+                            "dose": "2 mg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "5 mg/ml"
+                            "dose": "5 mg/ml"
                         },
                         {
                             "labelType": "large",
@@ -1759,15 +1759,15 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "<var -----> %"
+                            "dose": "<var -----> %"
                         },
                         {
                             "labelType": "small",
-                            "amount": "<var -----> mg/ml"
+                            "dose": "<var -----> mg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "2,5 mg/ml"
+                            "dose": "2,5 mg/ml"
                         },
                         {
                             "labelType": "plus",
@@ -1785,19 +1785,19 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "<var -----> %"
+                            "dose": "<var -----> %"
                         },
                         {
                             "labelType": "small",
-                            "amount": "<var -----> mg/ml"
+                            "dose": "<var -----> mg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "10 mg/ml"
+                            "dose": "10 mg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "20 mg/ml"
+                            "dose": "20 mg/ml"
                         },
                         {
                             "labelType": "large",
@@ -1817,15 +1817,15 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "<var -----> %"
+                            "dose": "<var -----> %"
                         },
                         {
                             "labelType": "small",
-                            "amount": "<var -----> mg/ml"
+                            "dose": "<var -----> mg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "10 mg/ml"
+                            "dose": "10 mg/ml"
                         }
                     ]
                 },
@@ -1838,19 +1838,19 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "<var -----> %"
+                            "dose": "<var -----> %"
                         },
                         {
                             "labelType": "small",
-                            "amount": "<var -----> mg/ml"
+                            "dose": "<var -----> mg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "10 mg/ml"
+                            "dose": "10 mg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "20 mg/ml"
+                            "dose": "20 mg/ml"
                         }
                     ]
                 },
@@ -1868,27 +1868,27 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "<var -----> %"
+                            "dose": "<var -----> %"
                         },
                         {
                             "labelType": "small",
-                            "amount": "<var -----> mg/ml"
+                            "dose": "<var -----> mg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "2 mg/ml"
+                            "dose": "2 mg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "3,75 mg/ml"
+                            "dose": "3,75 mg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "5 mg/ml"
+                            "dose": "5 mg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "7,5 mg/ml"
+                            "dose": "7,5 mg/ml"
                         },
                         {
                             "labelType": "large",
@@ -1960,15 +1960,15 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "<var -----> mg/ml"
+                            "dose": "<var -----> mg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "0,1 mg/ml"
+                            "dose": "0,1 mg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "0,5 mg/ml"
+                            "dose": "0,5 mg/ml"
                         }
                     ]
                 },
@@ -1981,11 +1981,11 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "<var -----> mg/ml"
+                            "dose": "<var -----> mg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "20 mg/ml"
+                            "dose": "20 mg/ml"
                         }
                     ]
                 },
@@ -1998,11 +1998,11 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "<var -----> mg/ml"
+                            "dose": "<var -----> mg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "0,2 mg/ml"
+                            "dose": "0,2 mg/ml"
                         }
                     ]
                 },
@@ -2015,7 +2015,7 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "0,6 mg/ml"
+                            "dose": "0,6 mg/ml"
                         }
                     ]
                 }
@@ -2038,11 +2038,11 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "<var -----> mg/ml"
+                            "dose": "<var -----> mg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "0,4 mg/ml"
+                            "dose": "0,4 mg/ml"
                         },
                         {
                             "labelType": "large",
@@ -2062,7 +2062,7 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "<var -----> mg/ml"
+                            "dose": "<var -----> mg/ml"
                         },
                         {
                             "labelType": "large",
@@ -2092,11 +2092,11 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "<var -----> mg/ml"
+                            "dose": "<var -----> mg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "6,2 mg/ml"
+                            "dose": "6,2 mg/ml"
                         }
                     ]
                 },
@@ -2109,11 +2109,11 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "<var -----> mg/ml"
+                            "dose": "<var -----> mg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "20 mg/ml"
+                            "dose": "20 mg/ml"
                         }
                     ]
                 },
@@ -2126,11 +2126,11 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "<var -----> mg/ml"
+                            "dose": "<var -----> mg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "2,5 mg/ml"
+                            "dose": "2,5 mg/ml"
                         },
                         {
                             "labelType": "large",
@@ -2150,11 +2150,11 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "<var -----> mg/ml"
+                            "dose": "<var -----> mg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "1 mg/ml"
+                            "dose": "1 mg/ml"
                         }
                     ]
                 },
@@ -2167,11 +2167,11 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "<var -----> mg/ml"
+                            "dose": "<var -----> mg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "5 mg/ml"
+                            "dose": "5 mg/ml"
                         },
                         {
                             "labelType": "plus",
@@ -2195,11 +2195,11 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "<var -----> mg/ml"
+                            "dose": "<var -----> mg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "2 mg/ml"
+                            "dose": "2 mg/ml"
                         }
                     ]
                 },
@@ -2212,7 +2212,7 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "<var -----> mg/ml"
+                            "dose": "<var -----> mg/ml"
                         }
                     ]
                 }
@@ -2252,7 +2252,7 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "<var -----> <red mg/ml>"
+                            "dose": "<var -----> <red mg/ml>"
                         },
                         {
                             "name": "<red Alteplase>",
@@ -2272,7 +2272,7 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "<var -----> mg/ml"
+                            "dose": "<var -----> mg/ml"
                         },
                         {
                             "labelType": "large",
@@ -2315,7 +2315,7 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "100 mg/ml"
+                            "dose": "100 mg/ml"
                         }
                     ]
                 },
@@ -2333,31 +2333,31 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "<var -----> i.E./ml"
+                            "dose": "<var -----> i.E./ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "200 i.E./ml"
+                            "dose": "200 i.E./ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "250 i.E./ml"
+                            "dose": "250 i.E./ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "400 i.E./ml"
+                            "dose": "400 i.E./ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "500 i.E./ml"
+                            "dose": "500 i.E./ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "1.000 i.E./ml"
+                            "dose": "1.000 i.E./ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "5.000 i.E./ml"
+                            "dose": "5.000 i.E./ml"
                         },
                         {
                             "labelType": "plus",
@@ -2425,7 +2425,7 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "<var -----> i.E./ml"
+                            "dose": "<var -----> i.E./ml"
                         }
                     ]
                 },
@@ -2438,7 +2438,7 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "<var -----> i.E./ml"
+                            "dose": "<var -----> i.E./ml"
                         }
                     ]
                 }
@@ -2467,7 +2467,7 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "1.000 i.E./ml"
+                            "dose": "1.000 i.E./ml"
                         }
                     ]
                 },
@@ -2480,7 +2480,7 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "100 mg/ml"
+                            "dose": "100 mg/ml"
                         },
                         {
                             "labelType": "large",
@@ -2512,11 +2512,11 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "<var -----> mg/ml"
+                            "dose": "<var -----> mg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "3 mg/ml"
+                            "dose": "3 mg/ml"
                         }
                     ]
                 },
@@ -2529,11 +2529,11 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "<var -----> mg/ml"
+                            "dose": "<var -----> mg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "5 mg/ml"
+                            "dose": "5 mg/ml"
                         },
                         {
                             "labelType": "large",
@@ -2553,15 +2553,15 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "<var -----> mg/ml"
+                            "dose": "<var -----> mg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "30 mg/ml"
+                            "dose": "30 mg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "50 mg/ml"
+                            "dose": "50 mg/ml"
                         },
                         {
                             "labelType": "large",
@@ -2606,7 +2606,7 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "10 mg/ml"
+                            "dose": "10 mg/ml"
                         }
                     ]
                 },
@@ -2619,7 +2619,7 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "10 mg/ml"
+                            "dose": "10 mg/ml"
                         }
                     ]
                 },
@@ -2632,15 +2632,15 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "<var -----> mg/ml"
+                            "dose": "<var -----> mg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "0,5 mg/ml"
+                            "dose": "0,5 mg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "1 mg/ml"
+                            "dose": "1 mg/ml"
                         },
                         {
                             "labelType": "large",
@@ -2692,7 +2692,7 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "0,2 mg/ml"
+                            "dose": "0,2 mg/ml"
                         }
                     ]
                 },
@@ -2705,7 +2705,7 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "3,5 mg/ml"
+                            "dose": "3,5 mg/ml"
                         },
                         {
                             "labelType": "large",
@@ -2725,7 +2725,7 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "10 mg/ml"
+                            "dose": "10 mg/ml"
                         },
                         {
                             "labelType": "large",
@@ -2745,15 +2745,15 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "<var -----> mg/ml"
+                            "dose": "<var -----> mg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "1 mg/ml"
+                            "dose": "1 mg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "2,5 mg/ml"
+                            "dose": "2,5 mg/ml"
                         },
                         {
                             "labelType": "large",
@@ -2825,11 +2825,11 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "<var -----> mg/ml"
+                            "dose": "<var -----> mg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "50 mg/ml"
+                            "dose": "50 mg/ml"
                         },
                         {
                             "labelType": "large",
@@ -2853,11 +2853,11 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "<var -----> mg/ml"
+                            "dose": "<var -----> mg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "100 mg/ml"
+                            "dose": "100 mg/ml"
                         },
                         {
                             "labelType": "large",
@@ -2896,11 +2896,11 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "5 μg/ml"
+                            "dose": "5 μg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "<var -----> μg/ml"
+                            "dose": "<var -----> μg/ml"
                         },
                         {
                             "labelType": "large",
@@ -2920,15 +2920,15 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "<var -----> mg/ml"
+                            "dose": "<var -----> mg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "0,25 mg/ml"
+                            "dose": "0,25 mg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "0,5 mg/ml"
+                            "dose": "0,5 mg/ml"
                         }
                     ]
                 },
@@ -2942,11 +2942,11 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "<var -----> mg/ml"
+                            "dose": "<var -----> mg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "0,5 mg/ml"
+                            "dose": "0,5 mg/ml"
                         },
                         {
                             "labelType": "large",
@@ -2964,11 +2964,11 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "<var -----> μg/ml"
+                            "dose": "<var -----> μg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "90 μg/ml"
+                            "dose": "90 μg/ml"
                         },
                         {
                             "labelType": "large",
@@ -3009,11 +3009,11 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "<var -----> mg/ml"
+                            "dose": "<var -----> mg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "0,3 mg/ml"
+                            "dose": "0,3 mg/ml"
                         }
                     ]
                 },
@@ -3026,11 +3026,11 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "<var -----> mg/ml"
+                            "dose": "<var -----> mg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "20 mg/ml"
+                            "dose": "20 mg/ml"
                         },
                         {
                             "labelType": "large",
@@ -3080,7 +3080,7 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "0,5 mmol Ca/ml"
+                            "dose": "0,5 mmol Ca/ml"
                         }
                     ]
                 },
@@ -3093,7 +3093,7 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "0,23 mmol Ca/ml"
+                            "dose": "0,23 mmol Ca/ml"
                         },
                         {
                             "labelType": "large",
@@ -3111,7 +3111,7 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "1 mmol PO43-/ml"
+                            "dose": "1 mmol PO43-/ml"
                         }
                     ]
                 },
@@ -3124,7 +3124,7 @@
                         {
                             "labelType": "small",
                             "name": "KCl 7,45%",
-                            "amount": "1 mmol/ml"
+                            "dose": "1 mmol/ml"
                         },
                         {
                             "labelType": "plus",
@@ -3172,7 +3172,7 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "0,3 mmol Mg/ml"
+                            "dose": "0,3 mmol Mg/ml"
                         }
                     ]
                 },
@@ -3185,7 +3185,7 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "0,4 mmol Mg/ml"
+                            "dose": "0,4 mmol Mg/ml"
                         },
                         {
                             "labelType": "plus",
@@ -3269,11 +3269,11 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "<var -----> mmol/ml"
+                            "dose": "<var -----> mmol/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "1 mmol/ml"
+                            "dose": "1 mmol/ml"
                         },
                         {
                             "labelType": "large",
@@ -3312,7 +3312,7 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "100 mg/ml"
+                            "dose": "100 mg/ml"
                         }
                     ]
                 }
@@ -3337,11 +3337,11 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "<var -----> μg/ml"
+                            "dose": "<var -----> μg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "4 μg/ml"
+                            "dose": "4 μg/ml"
                         },
                         {
                             "labelType": "large",
@@ -3361,11 +3361,11 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "<var -----> mg/ml"
+                            "dose": "<var -----> mg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "4 mg/ml"
+                            "dose": "4 mg/ml"
                         }
                     ]
                 },
@@ -3378,11 +3378,11 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "<var -----> mg/ml"
+                            "dose": "<var -----> mg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "5 mg/ml"
+                            "dose": "5 mg/ml"
                         },
                         {
                             "labelType": "large",
@@ -3423,7 +3423,7 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "<var -----> μg/ml"
+                            "dose": "<var -----> μg/ml"
                         }
                     ]
                 },
@@ -3436,7 +3436,7 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "<var -----> mg/ml"
+                            "dose": "<var -----> mg/ml"
                         }
                     ]
                 },
@@ -3449,11 +3449,11 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "<var -----> mg/ml"
+                            "dose": "<var -----> mg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "50 mg/ml"
+                            "dose": "50 mg/ml"
                         }
                     ]
                 },
@@ -3466,11 +3466,11 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "<var -----> mg/ml"
+                            "dose": "<var -----> mg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "100 mg/ml"
+                            "dose": "100 mg/ml"
                         }
                     ]
                 },
@@ -3483,7 +3483,7 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "<var -----> μg/ml"
+                            "dose": "<var -----> μg/ml"
                         },
                         {
                             "labelType": "large",
@@ -3503,19 +3503,19 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "<var -----> i.E./ml"
+                            "dose": "<var -----> i.E./ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "0,3 i.E./ml"
+                            "dose": "0,3 i.E./ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "3 i.E./ml"
+                            "dose": "3 i.E./ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "10 i.E./ml"
+                            "dose": "10 i.E./ml"
                         },
                         {
                             "labelType": "plus",
@@ -3539,7 +3539,7 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "<var -----> mg/ml"
+                            "dose": "<var -----> mg/ml"
                         }
                     ]
                 },
@@ -3571,15 +3571,15 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "<var -----> i.E./ml"
+                            "dose": "<var -----> i.E./ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "1 i.E./ml"
+                            "dose": "1 i.E./ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "100 i.E./ml"
+                            "dose": "100 i.E./ml"
                         },
                         {
                             "labelType": "plus",
@@ -3658,7 +3658,7 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "5 mg/ml"
+                            "dose": "5 mg/ml"
                         }
                     ]
                 },
@@ -3671,7 +3671,7 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "<var -----> mg/ml"
+                            "dose": "<var -----> mg/ml"
                         }
                     ]
                 },
@@ -3684,11 +3684,11 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "<var -----> mg/ml"
+                            "dose": "<var -----> mg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "1 mg/ml"
+                            "dose": "1 mg/ml"
                         }
                     ]
                 }
@@ -3711,7 +3711,7 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "100 mg/ml"
+                            "dose": "100 mg/ml"
                         }
                     ]
                 },
@@ -3723,11 +3723,11 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "<var -----> mg/ml"
+                            "dose": "<var -----> mg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "100 mg/ml"
+                            "dose": "100 mg/ml"
                         }
                     ]
                 },
@@ -3739,7 +3739,7 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "10 mg/ml"
+                            "dose": "10 mg/ml"
                         }
                     ]
                 },
@@ -3764,11 +3764,11 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "<var -----> mg/ml"
+                            "dose": "<var -----> mg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "100 mg/ml"
+                            "dose": "100 mg/ml"
                         }
                     ]
                 },
@@ -3781,11 +3781,11 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "<var -----> mg/ml"
+                            "dose": "<var -----> mg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "2,5 mg/ml"
+                            "dose": "2,5 mg/ml"
                         }
                     ]
                 },
@@ -3798,7 +3798,7 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "<var -----> mg/ml"
+                            "dose": "<var -----> mg/ml"
                         }
                     ]
                 },
@@ -3811,7 +3811,7 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "1 mg/ml"
+                            "dose": "1 mg/ml"
                         }
                     ]
                 },
@@ -3823,7 +3823,7 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "50 mg/ml"
+                            "dose": "50 mg/ml"
                         }
                     ]
                 },
@@ -3835,19 +3835,19 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "<var -----> mg/ml"
+                            "dose": "<var -----> mg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "1 mg/ml"
+                            "dose": "1 mg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "5 mg/ml"
+                            "dose": "5 mg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "10 mg/ml"
+                            "dose": "10 mg/ml"
                         },
                         {
                             "labelType": "large",
@@ -3873,15 +3873,15 @@
                         {
                             "name": "Glucose 40%",
                             "labelType": "small",
-                            "amount": "0,4 g/ml"
+                            "dose": "0,4 g/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "<var -----> %"
+                            "dose": "<var -----> %"
                         },
                         {
                             "labelType": "small",
-                            "amount": "<var -----> g/ml"
+                            "dose": "<var -----> g/ml"
                         },
                         {
                             "labelType": "large",
@@ -3912,19 +3912,19 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "<var -----> mg/ml"
+                            "dose": "<var -----> mg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "0,5 mg/ml"
+                            "dose": "0,5 mg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "1 mg/ml"
+                            "dose": "1 mg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "1,25 mg/ml"
+                            "dose": "1,25 mg/ml"
                         }
                     ]
                 },
@@ -3949,15 +3949,15 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "<var -----> mg/ml"
+                            "dose": "<var -----> mg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "100 mg/ml"
+                            "dose": "100 mg/ml"
                         },
                         {
                             "labelType": "small",
-                            "amount": "500 mg/ml"
+                            "dose": "500 mg/ml"
                         },
                         {
                             "labelType": "plus",
@@ -3992,7 +3992,7 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "20 mg/ml"
+                            "dose": "20 mg/ml"
                         }
                     ]
                 },
@@ -4005,7 +4005,7 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "2 mmol/ml"
+                            "dose": "2 mmol/ml"
                         }
                     ]
                 },
@@ -4018,7 +4018,7 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "50 mg/ml"
+                            "dose": "50 mg/ml"
                         }
                     ]
                 },
@@ -4031,7 +4031,7 @@
                         },
                         {
                             "labelType": "small",
-                            "amount": "30 mg/ml"
+                            "dose": "30 mg/ml"
                         }
                     ]
                 }

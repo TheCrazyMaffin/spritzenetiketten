@@ -54,7 +54,7 @@
                 "name": {
                     "ref": "#/$defs/renderable-string"
                 },
-                "amount": {
+                "dose": {
                     "ref": "#/$defs/renderable-string"
                 }
             },
