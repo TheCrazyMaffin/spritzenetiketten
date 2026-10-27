@@ -1,6 +1,6 @@
 import { createApp } from 'vue'
 import App from './App.vue'
-import router from './router';
+import router from './modules/router/index.js';
 
 import { IonicVue } from '@ionic/vue';
 
@@ -34,10 +34,13 @@ import '@ionic/vue/css/palettes/dark.system.css';
 /* Theme variables */
 import './theme/variables.css';
 
+/* Self-hosted label font */
+import '@fontsource-variable/roboto-condensed';
+
 const app = createApp(App)
   .use(IonicVue)
   .use(router);
 
-router.isReady().then(() => {
+void router.isReady().then(() => {
   app.mount('#app');
 });
