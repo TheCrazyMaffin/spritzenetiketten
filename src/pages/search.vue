@@ -10,7 +10,7 @@
         />
       </IonToolbar>
       <IonToolbar>
-        <div class="flex flex-row gap-2 py-2">
+        <div class="flex flex-row py-2 overflow-x-scroll">
           <IonSelect
             v-for="tag in LabelDirectory.tags"
             :key="`select-${tag[0]}`"
