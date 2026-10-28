@@ -47,10 +47,10 @@
           Angelehnt an die Empfehlung der DIVI finden sich über die <RouterLink to="/search">Suche</RouterLink> Etiketten aus der Beschriftungsempfehlung. Zusätzlich kann jedes Etikett individuell bearbeitet werden oder gleich von Grund auf neu entworfen werden.<br>
           Diese Funktion soll natürlich nicht dazu dienen, dass nun neue und uneinheitliche Etiketten entstehen, sondern eher um die Möglichkeiten im Rahmen der Empfehlung vollständig zu nutzen. Ein Etikett muss nicht genau "so breit" und "so hoch" sein und nur weil es kein Etikett mit "genau dieser Dosis" gibt, ist das keine Sackgasse - der <RouterLink to="/editor">Editor</RouterLink> soll die Möglichkeit bieten Etiketten auf die eigenen Ansprüche anzupassen. (Jedes Etikett aus der Suche kann im Editor geladen werden. Nicht für jedes Etikett muss man bei Null starten.)
         </div>
-        <div class="pt-5">
+        <div class="pt-10 text-center">
           <IonButton
             fill="outline"
-            href="https://github.com/TheCrazyMaffin/spritzenetiketten/"
+            :href="packageJson.repository.url"
             target="_blank"
           >
             <IonIcon
@@ -59,6 +59,9 @@
             />
             GitHub
           </IonButton>
+          <div class="dark:text-neutral-300 text-neutral-700 p-2">
+            Spritzenetiketten v{{ packageJson.version }}
+          </div>
         </div>
       </div>
     </IonContent>
@@ -72,6 +75,7 @@ import ToolbarMenuButton from '@/components/ToolbarMenuButton.vue';
 import { LabelDirectory } from '@/data/directory';
 import { IonPage, IonHeader, IonToolbar, IonTitle, IonContent, IonCard, IonCardHeader, IonCardTitle, IonCardSubtitle, IonIcon, IonButton } from '@ionic/vue';
 import { logoGithub } from 'ionicons/icons';
+import packageJson from '@/../package.json';
 
 definePage({meta: {navigationEntry: true, navigationName: 'Startseite'}})
 
