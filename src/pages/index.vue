@@ -40,7 +40,7 @@
         <h2 class="pt-10 underline decoration-yellow-500 decoration-2">
           Über diese Webseite
         </h2>
-        <div class="max-w-xl text-justify">
+        <div class="max-w-xl text-justify px-5">
           Spritzenetiketten sind Aufkleber zur Kennzeichnung von Spritzen mit Medikamenten. Zum Aussehen (Farben, Muster, Text) der Etiketten gibt es eine <a href="https://www.divi.de/service/spritzenetiketten">Empfehlung der DIVI</a>, sowie die <a href="https://www.iso.org/standard/76678.html">ISO 26825</a>.<br>
           Fertige Etiketten können als Print-Produkte bei diversen Firmen erworben werden, aber Etiketten selbst erstellen, drucken oder digital verwenden ist erstaunlich unzugänglich. Nachdem man mehrere komplexe Dokumente mit Vorgaben hoch- und runter-gelesen hat, folgt nun, dass man einen Grafikeditor bemühen muss um diese umzusetzen. Dieser Aufwand ist eine große Hürde für etwas, das der Standard für Medikamentensicherheit sein sollte.<br><br>
           Diese Webseite soll diese Hürde nehmen und für das Thema Medikamentensicherheit sensibilisieren.<br>
